@@ -12,4 +12,6 @@ class area_setting extends Model
     protected $table = "area_settings";
     public $primaryKey = 'area_id';
     protected $fillable=['area','population','area_id'];
+
+
 }

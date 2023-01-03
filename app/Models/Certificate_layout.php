@@ -13,5 +13,5 @@ class Certificate_layout extends Model
     // Timestamps
     public $timestamps = false;
 
-    protected $fillable = ['logo_1', 'logo_2', 'municipality', 'province', 'office', 'barangay', 'punongbarangay'];
+    protected $fillable=['logo_1','logo_2','municipality','province','office','barangay','punongbarangay'];
 }
